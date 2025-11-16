@@ -100,7 +100,7 @@ Exploration using `.info()`, `.describe()`, and a correlation heatmap confirmed:
 
 | Aspect | Hierarchical Clustering | DBSCAN |
 |-------|---------------------------|---------|
-| **Detected clusters** | ✔ Yes, best at 3 | ✘ No clusters found |
+| **Detected clusters** | Yes, best at 3 | No clusters found |
 | **Noise handling** | Assigns all points to clusters | Identified all data as noise |
 | **Parameter sensitivity** | Only requires choosing n_clusters | Highly sensitive to eps & min_samples |
 | **Best use case** | Compact, well-separated clusters | Arbitrary shapes & density-separated regions |
